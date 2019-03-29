@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafb;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#main {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background-color: #000;
+}
+
+#main:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.3;
+  background: url("../images/principal.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#main .main-image img {
+  width: 100%;
+}
+
+#main .statement {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -75px;
+  z-index: 1;
+}
+
+.statement {
+  color: #444939;
+  font-size: 25px;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+.statement span {
+  color: #679D05;
+}
+
+#menu {
+  margin: 2% 5%;
+  position: absolute;
+  z-index: 10;
+  width: 90%;
+}
+
+#menu #logo {
+  width: 250px;
+}
+
+#services img {
+  height: 100px;
+}
+
+#technologies {
+  margin: 5% auto;
+}
+
+#technologies img {
+  max-width: 80px;
+}
+
+#our-commitment {
+}
+
+#content {
+  height: 1500px;
+}
+
+.block {
+  padding: 5%;
+  display: block;
+  width: 90%;
+  position: relative;
+}
+
+.block-content {
+  margin: auto 0 auto 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.block-flex {
+  display: flex;
+}
+
+.odd {
+  background-color: #fff;
+}
+
+.flex-element {
+  padding-right: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.flex-element:last-child {
+  padding-right: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 60px;
+  text-align: center;
+  color: #679D05;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #444939;
+}
